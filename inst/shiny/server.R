@@ -2,8 +2,6 @@ library(shiny)
 library(shinyjs)
 library(bingo)
 
-source("utils.R")
-
 function(input, output, session) {
 
   values <- reactiveValues(cardsHTML = NULL)
